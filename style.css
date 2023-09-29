@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    color: black;
+    margin-left: 350px;
+    padding: 20px;
+}
+.section1{
+    background-color: #00003f;
+}
+.row1{
+    display: flex;
+}
+.col2{
+    margin-left: 100px;
+    color: white;
+}
+.btn1{
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+.btn2{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    font-weight: 700;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #4285f4;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    font-size: 24px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #4285f4;
+}
+/* Skill section styles */
+.skills {
+    margin-top: 20px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skill-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.percentage {
+    font-size: 24px;
+}
+
+/* Customize skill circles */
+.skill-circle.web {
+    background-color: #4285F4; /* Color for web development */
+}
+
+.skill-circle.design {
+    background-color: #f44336; /* Color for graphic design */
+}
+
+.skill-circle.project {
+    background-color: #F4B400; /* Color for project management */
+}
+
+.skill-circle.data {
+    background-color: #0F9D58; /* Color for data analysis */
+}
+
+.skill-circle.ui {
+    background-color: #2196f3; /* Color for UI/UX design */
+}
+
+.skill-circle.leadership {
+    background-color: #f44336; /* Color for team leadership */
+}
+
+.skill-circle.writing {
+    background-color: #F4B400; /* Color for content writing */
+}
+.skill-circle.c {
+    background-color: #0F9D58; /* Color for content writing */
+}
